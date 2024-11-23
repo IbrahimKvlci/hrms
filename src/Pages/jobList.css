@@ -1,0 +1,25 @@
+.dates{
+    padding-bottom: 10px;
+}
+
+.postingDate,.deadlineDate{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.date{
+    margin-left: 5px;
+}
+
+.cardBottom{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.applyButton{
+    margin-left: 52px;
+}
