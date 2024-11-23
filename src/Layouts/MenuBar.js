@@ -1,22 +1,22 @@
 import React from 'react'
-import { MenuItem, Menu, Segment } from 'semantic-ui-react'
+import { MenuItem, Menu, Segment, Container } from 'semantic-ui-react'
+import './menuBar.css'
+import SearchBar from './SearchBar'
 
 export default function MenuBar() {
   return (
     <div>
-        <Segment inverted>
-        <Menu inverted pointing secondary>
+      <Menu size='large'>
           <MenuItem
-            name='home'
+            name='Home'
           />
           <MenuItem
-            name='messages'
+            name='Jobs'
           />
           <MenuItem
-            name='friends'
+            name='Candidates'
           />
-        </Menu>
-      </Segment>
+      </Menu>
     </div>
   )
 }
