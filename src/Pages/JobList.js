@@ -11,7 +11,7 @@ export default function JobList() {
     useEffect(()=>{
         let jobService=new JobService
         jobService.getActiveJobs().then(result=>setJobs(result.data.data))
-    })
+    },[])
 
     return (
         <div>

@@ -10,7 +10,7 @@ export default function CandidateList() {
     useEffect(() => {
         let candidateService = new CandidateService
         candidateService.getCandidateCVList().then(result => setCandidateCVs(result.data.data))
-    })
+    },[])
 
     return (
         <div>
