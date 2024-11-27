@@ -4,7 +4,7 @@ import JobList from '../Pages/JobList'
 import CandidateList from '../Pages/CandidateList'
 import EmployerList from '../Pages/EmployerList'
 import JobDetail from '../Pages/JobDetail'
-import AddJob from '../Pages/AddJob'
+import AddEmployer from '../Pages/AddEmployer'
 
 export default function Dashboard() {
   return (
@@ -15,7 +15,7 @@ export default function Dashboard() {
             <Route path='/candidates' Component={CandidateList}/>
             <Route path='/employers' Component={EmployerList}/>
             <Route path='/jobDetail/:id' Component={JobDetail}/>
-            <Route path='/add/job' Component={AddJob}/>
+            <Route path='/add/employer' Component={AddEmployer}/>
 
         </Routes>
     </div>
