@@ -1,0 +1,10 @@
+.cardBottom{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.applyButton{
+    margin-left: auto;
+    margin-right: 0;
+}
